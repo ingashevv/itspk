@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   height: 100%;
+  overflow-x: hidden;
 }
 
 *,
@@ -182,6 +183,7 @@ body {
   color: #ffffff;
   margin-top: -30px;
   margin-left: 854px;
+  text-align: right;
 }
 
 .info__inner {
@@ -226,7 +228,7 @@ body {
 .info__content-div {
   margin-left: 40px;
   margin-top: 16px;
-  width: 166px;
+  width: 201px;
   height: 44px;
   font-weight: 700;
   font-size: 18px;
@@ -234,7 +236,7 @@ body {
 }
 
 .info__item-and {
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 .info__item-name {
@@ -266,6 +268,7 @@ body {
 
 .goal__name {
   display: flex;
+  margin-left: 80px;
 }
 
 .goal__logandtit {
@@ -305,13 +308,13 @@ body {
   color: #001e42;
 }
 
-.goal__content-items ul {
+.goal__item ul{
   display: flex;
 }
-
 .goal__item li {
   display: flex;
   margin-top: 30px;
+  position: relative;
 }
 
 .goal__item span {
@@ -323,6 +326,10 @@ body {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #00feff;
+}
+
+.goal__item span + span{
+  margin-left: 335px;
 }
 
 .goal__item div {
@@ -337,6 +344,10 @@ body {
   top: 49px;
 }
 
+.goal__item-one{
+  position: absolute;
+  left: -43px;
+}
 .price__inner {
   margin-top: 115px;
   margin-bottom: 100px;
@@ -404,7 +415,8 @@ body {
   margin-right: 45px;
 }
 
-.price__btn-two button:hover {
+.price__btn-two button:hover,
+.price__btn-one button:hover{
   padding: 5px;
   border: 5px solid #f2f2f2;
 }
@@ -488,12 +500,11 @@ body {
 
 .client__box ul {
   display: flex;
+  justify-content: space-between;
 }
 
 .client__box li img {
-  width: 163px;
   height: 110px;
-  margin-left: 45px;
 }
 
 .description__inner {
