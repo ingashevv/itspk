@@ -13,7 +13,7 @@
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container-fluid">
       <div class="header__inner">
         <div class="header__first">
           <div class="header__logo">
@@ -186,7 +186,7 @@
                 <span>Отправить заявку</span>
 
                 <img src="images/right.svg" />
-              </button>
+              </button>,
             </div>
           </div>
         </div>
@@ -255,16 +255,20 @@
             </p>
             <div class="price__btn">
               <div class="price__btn-one">
-                <button>
-                  <span>Прайс it</span>
-                  <img src="images/download.svg" />
-                </button>
+                <div class="price__btn-border--one">
+                  <button>
+                    <span>Прайс it</span>
+                    <img src="images/download.svg" />
+                  </button>
+                </div>
               </div>
               <div class="price__btn-two">
-                <button>
-                  <span>Прайс монтаж</span>
-                  <img src="images/download.svg" />
-                </button>
+                <div class="price__btn-border--two">
+                  <button>
+                    <span>Прайс монтаж</span>
+                    <img src="images/download.svg" />
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -380,8 +384,11 @@
             <input class="information" type="text" placeholder="E-mail" />
             <input class="message" type="text" placeholder="Сообщение" />
             <div class="check">
-              <input id="highload0" class="checkbox-custom" name="highload0" type="checkbox" />
-              <label for="highload0" class="checkbox-custom-label">Даю согласие на обработку персональных данных</label>
+              <label class="label">
+                <input type="checkbox" class="checkbox">
+                <span class="fake"></span>
+                <span class="checkbox__text">Даю согласие на обработку персональных данных</span>
+              </label>
             </div>
 
             <div class="footer__item-btn">
@@ -420,6 +427,9 @@
       </div>
     </div>
   </footer>
+
+  
+
   <script src="js/min.js"></script>
 </body>
 </html>
