@@ -2471,7 +2471,55 @@ body {
   }
 }
 
-@media (max-width: 390px) {}
+@media (max-width: 390px) {
+  .header__name {
+    font-size: 17px;
+  }
+
+  .text {
+    width: 330px;
+  }
+
+  .line__menu {
+    margin-left: 170px;
+  }
+
+  .info__item-content li {
+    margin-left: 10px;
+  }
+
+  .goal__info {
+    width: 340px;
+  }
+
+  .goal__logandtit {
+    margin-left: 5px;
+  }
+
+  .footer__first-input {
+    margin-left: 10px;
+  }
+
+  .footer__end-email {
+    margin-left: 100px;
+  }
+
+  .footer__end-phone {
+    margin-left: 70px;
+  }
+
+  .footer__end-title {
+    margin-left: 0px;
+  }
+
+  .footer__end-text {
+    margin-left: 15px;
+  }
+
+  .goal__item li {
+    margin-left: 10px;
+  }
+}
 
 @media (max-width: 380px) {}
 
