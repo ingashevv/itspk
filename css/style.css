@@ -2692,7 +2692,60 @@ body {
   }
 }
 
-@media (max-width: 340px) {}
+@media (max-width: 340px) {
+  .line__menu {
+    margin-left: 130px;
+  }
+
+  .header__name {
+    font-size: 15px;
+  }
+
+  .header__item-title {
+    font-size: 12px;
+  }
+
+  .text {
+    width: 300px;
+  }
+
+  .info__item-content li {
+    margin-left: -5px;
+  }
+
+  .goal__logo img {
+    width: 130px;
+  }
+
+  .goal__info {
+    margin-left: 0px;
+  }
+
+  .goal__item div {
+    width: 230px;
+    font-size: 14px;
+  }
+
+  .price__box-content p {
+    width: 260px;
+  }
+
+  .price__btn {
+    margin-top: 210px;
+  }
+
+  .description__content-box {
+    width: 273px;
+    margin-bottom: 360px;
+  }
+
+  .header__men {
+    top: -330px;
+    left: 5px;
+    z-index: 1;
+    width: 310px;
+  }
+}
 
 @media (max-width: 320px) {}
 
