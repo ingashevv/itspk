@@ -2747,7 +2747,39 @@ body {
   }
 }
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+  .header__men {
+    top: -345px;
+    left: -5px;
+  }
+
+  .goal__info {
+    margin-left: -15px;
+  }
+
+  .price__box-ticket {
+    margin-left: 0px;
+  }
+
+  .client__box {
+    margin-left: -40px;
+  }
+
+  .footer__first-input .information,
+  .footer__first-input .message,
+  .footer__item-btn button {
+    width: 280px;
+  }
+
+  .checkbox__text {
+    font-size: 9px;
+    top: 5px;
+  }
+
+  .footer__first-title {
+    margin-left: -15px;
+  }
+}
 
 
 
