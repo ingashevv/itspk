@@ -2064,6 +2064,10 @@ body {
 }
 
 @media (max-width: 560px) {
+  .text {
+    width: 470px;
+  }
+
   .price__box-content p {
     width: 315px;
   }
@@ -2073,16 +2077,19 @@ body {
   }
 }
 
-@media (max-width: 530px) {
-  .line__menu {
-    margin-left: 220px;
-  }
-}
-
 @media (max-width: 540px) {
+  .goal__info {
+    width: 460px;
+  }
+
+  .goal__logandtit {
+    margin-left: 70px;
+  }
+
   .description__content-box {
-    width: 295px;
+    width: 440px;
     margin-bottom: 180px;
+    height: 230px;
   }
 
   .description .container-fluid {
@@ -2099,329 +2106,380 @@ body {
   }
 }
 
-@media (max-width: 430px) {
-  .footer__end-text {
-    margin-top: -30px;
+@media (max-width: 530px) {
+  .footer__first-title {
+    margin-left: 90px;
   }
 
-  .price__btn-two button {
-    top: 3770px;
+  .footer__first-input {
+    margin-left: 80px;
+  }
+
+  .goal__info {
+    width: 460px;
+  }
+
+  .text {
+    width: 425px;
+  }
+
+  .line__menu {
+    margin-left: 280px;
+  }
+}
+
+@media (max-width: 500px) {
+  .info__item-content li {
+    margin-left: 70px;
+  }
+
+  .goal__logandtit {
+    margin-left: 40px;
+  }
+
+  .goal__item li {
+    margin-left: 60px;
+  }
+
+  .goal__info {
+    width: 420px;
+  }
+
+  .price__box-ticket {
+    margin-left: 70px;
+  }
+
+  .footer__end-items {
+    margin-left: 30px;
+  }
+
+  .footer__first-input {
+    margin-left: 60px;
   }
 
   .footer__first-title {
-    margin-bottom: 20px;
+    margin-left: 70px;
   }
 
-  .footer__item-btn button {
-    width: 295px;
-    margin-top: 30px;
+  .description__content-box {
+    width: 350px;
+    margin-bottom: 240px;
+    height: 230px;
   }
 
-  .footer__first-input .message {
-    width: 295px;
-    height: 60px;
+  .client__box {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .info,
+  .goal,
+  .price,
+  .client,
+  .description {
+    margin-left: 10px;
   }
 
-  .footer__first-input .information {
-    width: 295px;
-    height: 40px;
+  .price__inner {
+    margin-bottom: 50px;
   }
 
-  .footer__end-item .footer__end-email {
-    margin-top: 28px;
-    text-align: center;
-    padding-top: 5px;
-    width: 295px;
-    font-size: 13px;
+  .price__inner {
+    margin-top: 50px;
   }
 
-  .footer__end-item .footer__end-title {
-    width: 300px;
-    font-size: 10px;
-    margin-left: -16px;
-    margin-top: 5px;
+  .footer__first-title {
+    margin-left: 60px;
   }
 
+  .price__btn-border--two {
+    margin-left: 5px;
+  }
+
+  .footer__first-input {
+    margin-left: 50px;
+  }
+
+  .price__box-ticket {
+    margin-left: 50px;
+  }
+
+  .client__box {
+    margin-left: 0px;
+  }
+
+  .footer__end-items {
+    margin-left: 10px;
+  }
+
+  .goal__item li {
+    margin-left: 40px;
+  }
+
+  .goal__content-title {
+    font-size: 20px;
+  }
+
+  .line__menu {
+    margin-left: 250px;
+  }
+
+  .text {
+    width: 390px;
+  }
+
+  .info__item-content li {
+    margin-left: 50px;
+  }
+
+  .info__item-text {
+    height: 200px;
+    max-width: 360px;
+  }
+
+  .goal__info {
+    width: 420px;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 450px) {
   .footer__end-text {
+    margin-left: 100px;
     text-align: center;
+  }
+
+  .footer__end-email {
+    font-size: 14px;
+    margin-left: 150px;
+  }
+
+  .footer__end-phone {
+    margin-left: 120px;
+  }
+
+  .footer__end-title {
+    width: 327px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
   }
 
   .footer__end {
-    height: 100%;
+    height: 170px;
   }
 
   .footer__end-items {
     display: block;
-  }
-
-  .footer__end {
-    padding-bottom: 10px;
     margin-top: -30px;
   }
 
-  .footer__end-phone span {
-    font-size: 8px;
+  .footer__first-title {
+    margin-left: 50px;
   }
 
-  .footer__end-title {
-    width: 190px;
-    font-size: 11px;
+  .footer__first-input {
+    margin-left: 40px;
   }
 
-  .footer__end-phone div {
-    font-size: 12px;
-    width: 115px;
+  .client__box ul {
+    margin-left: 60px;
+  }
+
+  .price__btn-border--two {
+    margin-left: 0px;
+  }
+
+  .price__btn {
+    display: block;
+    margin-left: 0px;
+    margin-top: 110px;
+  }
+
+  .price__box-content p {
+    width: 370px;
+  }
+
+  .line__menu {
+    margin-left: 230px;
+  }
+
+  .text {
+    width: 370px;
+  }
+
+  .info__item-content p {
+    width: 350px;
+    margin-bottom: 80px;
+  }
+
+  .info__item-content li {
+    margin-left: 40px;
+  }
+
+  .goal__info {
+    width: 393px;
+    font-size: 17px;
+    margin-top: 40px;
+  }
+
+  .goal__logandtit {
+    margin-left: 25px;
+  }
+
+  .goal__content-title {
+    font-size: 18px;
+    width: 395px;
+  }
+
+}
+
+@media (max-width: 430px) {
+  .text {
+    width: 350px;
+    text-align: center;
+  }
+
+  .header__name {
+    font-size: 18px;
+    width: 340px;
+    height: 45px;
+  }
+
+  .line__menu {
+    margin-left: 210px;
+  }
+
+  .goal__logandtit {
+    margin-left: 15px;
+  }
+
+  .goal__info {
+    width: 360px;
+  }
+
+  .goal__item li {
+    margin-left: 20px;
+  }
+
+  .price__box-content p {
+    width: 350px;
+  }
+
+  .footer__first-input {
+    margin-left: 30px;
+  }
+
+  .footer__first-title {
+    margin-left: 40px;
+  }
+
+  .footer__end-phone {
+    margin-left: 100px;
   }
 
   .footer__end-email {
-    font-size: 11px;
+    margin-left: 130px;
   }
 
-  .price__btn-two button {
-    left: -155px;
+  .footer__end-title {
+    margin-left: 30px;
   }
 
-  .price__box-ticket {
-    margin-top: 205px;
+  .footer__end-text {
+    margin-left: 80px;
   }
 }
 
 @media (max-width: 410px) {
-  .header__name {
-    font-size: 17px;
-    margin-top: 25px;
+  .footer__end-text {
+    margin-left: 35px;
   }
 
-  .header__men {
-    left: 12px;
-  }
-
-  .header__item-title {
-    font-size: 11px;
-  }
-
-  .text {
-    font-size: 9px;
-  }
-
-  .line__menu {
-    margin-left: 165px;
-  }
-
-  .price__btn-two button {
-    top: 4270px;
-  }
-
-  .info__item-btn button {
-    margin-top: 40px;
-  }
-
-  .price__btn-one button {
-    top: 4210px;
-  }
-
-  .price__btn-two {
-    top: 4270px;
-  }
-}
-
-@media (max-width: 390px) {
-  .header__first {
-    padding-top: 15px;
-  }
-
-  .header__men {
-    top: -365px;
-  }
-}
-
-@media (max-width: 380px) {
-  .goal__logandtit {
-    display: block;
-  }
-
-  .goal__title {
-    margin-top: 15px;
-  }
-
-  .goal__info {
-    margin-top: 30px;
-  }
-
-  .goal__content {
-    margin-top: 70px;
-  }
-}
-
-@media (max-width: 360px) {
-
-  .header__men {
-    left: 0px;
-    width: 310px;
-  }
-
-  .header__item-btn button,
-  .info__item-btn button {
-    width: 280px;
-  }
-
-  .header__name {
-    font-size: 14px;
-    margin-top: 20px;
-  }
-
-  .header__item-title {
-    font-size: 10px;
-  }
-
-  .header__item-text {
-    font-size: 11px;
-  }
-
-  .info__item-text+.info__item-text {
-    margin-top: 140px;
-  }
-
-  .info__item-btn button {
-    margin-top: 90px;
-  }
-
-  .info__inner {
-    margin-bottom: 60px;
-  }
-
-  .price__box-content p {
-    width: 305px;
-  }
-
-  .price__btn-one button {
-    top: 4390px;
-  }
-
-  .price__inner {
-    margin-top: 60px;
-  }
-
-  .price__btn-two button {
-    top: 4330px;
-  }
-
-  .price__box-content p {
-    height: 230px;
-  }
-
-  .info__item-text {
-    font-size: 16px;
-    max-width: 285px;
-  }
-
-  .line__menu {
-    margin-left: 120px;
-  }
-
-  .goal__info {
-    width: 280px;
-  }
-
-  .goal__content {
-    margin-top: 120px;
-  }
-
-  .goal__item div {
-    left: -40px;
-    font-size: 17px;
-    width: 285px;
-  }
-}
-
-@media (max-width: 340px) {
-  .price__box-content p {
-    width: 285px;
-  }
-
-  .price__btn-one button {
-    top: 450px;
-  }
-
-  .price__btn-two button {
-    top: 510px;
-  }
-
-  .price__box-ticket {
-    margin-top: 305px;
-  }
-
-  .info__item-name {
-    width: 310px;
-    margin-bottom: 90px;
-  }
-
-  .info__item-text {
-    max-width: 287px;
-  }
-
-  .info__item-text+.info__item-text {
-    margin-top: 200px;
-  }
-
-  .info__item-btn button {
-    margin-top: 120px;
-  }
-}
-
-@media (max-width: 320px) {
-  .info__item-name {
-    width: 300px;
-    margin-bottom: 70px;
-  }
-
-  .text {
-    margin-top: 40px;
-  }
-
-  .header__item-btn button,
-  .info__item-btn button {
-    margin-top: 90px;
+  .footer__end-title {
+    margin-left: 10px;
   }
 
   .footer__end-phone {
-    margin-left: 80px;
+    margin-left: 85px;
   }
 
-  .info__inner {
-    margin-top: 40px;
-  }
-
-  .footer__first-title {
-    font-size: 14px;
-  }
-
-  .description__inner {
-    margin-top: 20px;
-  }
-
-  .price__btn-two button {
-    top: 4430px;
-  }
-
-  .price__btn-one button {
-    top: 4360px;
-  }
-
-  .info__item-content p {
-    width: 280px;
-  }
-
-  .info__item-text+.info__item-text {
-    margin-top: 150px;
+  .footer__end-email {
+    margin-left: 115px;
   }
 
   .description__content-box {
-    width: 285px;
-    margin-bottom: 180px;
+    width: 325px;
+    margin-bottom: 290px;
+    height: 230px;
   }
 
+  .client__box ul {
+    margin-left: 50px;
+  }
+
+  .price__box-ticket {
+    margin-left: 40px;
+  }
+
+  .price__btn {
+    margin-top: 150px;
+  }
+
+  .price__box-content p {
+    width: 310px;
+  }
+
+  .info__item-content li {
+    margin-left: 30px;
+  }
+
+  .info__item-content p {
+    width: 334px;
+    margin-bottom: 100px;
+  }
+
+  .footer__first-input {
+    margin-left: 20px;
+  }
+
+  .footer__first-title {
+    margin-left: 30px;
+  }
+
+  .info__item-text {
+    height: 220px;
+    max-width: 320px;
+  }
+
+  .info__inner {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .line__menu {
+    margin-left: 190px;
+  }
+
+  .header__inner {
+    margin-left: 15px;
+  }
 }
+
+@media (max-width: 390px) {}
+
+@media (max-width: 380px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 340px) {}
+
+@media (max-width: 320px) {}
 
 
 
