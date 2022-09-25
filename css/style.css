@@ -2472,6 +2472,12 @@ body {
 }
 
 @media (max-width: 390px) {
+  .header__men {
+    top: -330px;
+    left: 16px;
+    z-index: 1;
+  }
+
   .header__name {
     font-size: 17px;
   }
@@ -2521,7 +2527,87 @@ body {
   }
 }
 
-@media (max-width: 380px) {}
+@media (max-width: 380px) {
+  .footer__first-input {
+    margin-left: 5px;
+  }
+
+  .footer__first-input .information {
+    width: 330px;
+  }
+
+  .footer__first-input .message {
+    width: 330px;
+  }
+
+  .footer__item-btn button {
+    width: 330px;
+  }
+
+  .footer__first-title {
+    margin-left: 10px;
+  }
+
+  .footer__end-email {
+    margin-left: 90px;
+  }
+
+  .footer__end-title {
+    margin-left: -10px;
+  }
+
+  .footer__end-text {
+    margin-left: 0px;
+  }
+
+  .footer {
+    margin-top: -50px;
+  }
+
+  .client__box {
+    margin-left: -15px;
+  }
+
+  .price__box-ticket {
+    margin-left: 30px;
+  }
+
+  .price__box-content p {
+    width: 300px;
+  }
+
+  .price__btn {
+    margin-top: 170px;
+  }
+
+  .goal__item div {
+    width: 275px;
+    font-size: 16px;
+  }
+
+  .goal__content-title {
+    font-size: 17px;
+    width: 275px;
+  }
+
+  .goal__title {
+    width: 145px;
+    font-size: 34px;
+  }
+
+  .goal__info {
+    margin-left: -10px;
+  }
+
+  .info__item-content p {
+    width: 300px;
+    margin-bottom: 130px;
+  }
+
+  .text {
+    width: 310px;
+  }
+}
 
 @media (max-width: 360px) {}
 
