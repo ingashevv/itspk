@@ -2609,7 +2609,88 @@ body {
   }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+  .header__first {
+    padding-top: 25px;
+  }
+
+  .line__menu {
+    margin-left: 150px;
+  }
+
+  .header__name {
+    font-size: 16px;
+  }
+
+  .text {
+    margin-left: -10px;
+  }
+
+  .info__item-content li {
+    margin-left: 0px;
+  }
+
+  .info__item-name {
+    width: 363px;
+    font-size: 21px;
+  }
+
+  .info__item-text {
+    max-width: 275px;
+    font-size: 16px;
+  }
+
+  .goal__info {
+    width: 315px;
+    font-size: 16px;
+  }
+
+  .price__box-ticket {
+    margin-left: 10px;
+  }
+
+  .client__box {
+    margin-left: -30px;
+  }
+
+  .description__content-box {
+    width: 288px;
+    margin-bottom: 320px;
+  }
+
+  .footer__first-input .information {
+    width: 300px;
+  }
+
+  .footer__first-input .message {
+    width: 300px;
+  }
+
+  .footer__item-btn button {
+    width: 300px;
+  }
+
+  .footer__end-email {
+    margin-left: 80px;
+  }
+
+  .footer__end-phone {
+    margin-left: 50px;
+  }
+
+  .footer__end-title {
+    margin-left: -25px;
+  }
+
+  .footer__end-text {
+    margin-left: -35px;
+  }
+
+  .footer__first-title {
+    margin-left: -5px;
+    font-size: 14px;
+  }
+}
 
 @media (max-width: 340px) {}
 
