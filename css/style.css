@@ -2,20 +2,16 @@ html {
   overflow-x: hidden;
 }
 
-*,
+*, 
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html,
 body {
   height: 100%;
   position: relative;
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -32,6 +28,8 @@ li {
 
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container-fluid {
@@ -965,7 +963,7 @@ body {
 
 @media (max-width: 1090px) {
   .info__item-title title {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 
   .info__item-text {
@@ -1089,6 +1087,7 @@ body {
   .info__item-content p {
     width: 1021px;
     margin-left: 0;
+    margin-top: 20px;
   }
 
   .info__text {
@@ -1705,7 +1704,7 @@ body {
 
   .line__menu {
     margin-left: 490px;
-    display: block;
+    display: none;
   }
 
   .header__menu {
@@ -2616,6 +2615,7 @@ body {
 
   .line__menu {
     margin-left: 150px;
+    display: block;
   }
 
   .header__name {
@@ -2804,7 +2804,6 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  border: 1px solid #000;
   position: relative;
 }
 
